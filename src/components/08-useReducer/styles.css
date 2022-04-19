@@ -1,0 +1,17 @@
+body{
+    padding: 70px
+}
+
+.list-group-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    margin: 0px;
+    cursor: pointer; /*es como si tuviera un boton  */
+}
+.complete{
+    text-decoration: line-through; /* me tacha las cosas */
+}
